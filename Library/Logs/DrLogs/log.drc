@@ -1,0 +1,12 @@
+2021-09-07 12:49:48:926 0 StartEngine 167 DR CTRL path: /Applications/Recoverit.app/Contents/MacOS/Recoverit.app/Contents/MacOS/dre, pid: 1693
+2021-09-07 12:49:48:964 0 ProcessCrashCallBack 561 DR CTRL [ProcessCrashCallBack] start
+2021-09-07 12:49:48:965 0 main 198 DR CTRL 
+		Data Recovery Controller v1.1.5.8 (Sep  2 2021 21:01:44)
+2021-09-07 12:49:48:965 0 main 199 DR CTRL Application running at: http://127.0.0.1:57209
+2021-09-07 12:49:50:959 0 createRequestHandler 180 DR CTRL GET /ws
+2021-09-07 12:49:50:959 0 handleRequest 32 DR CTRL WebSocket connection established.
+2021-09-07 12:49:50:959 0 OnMessageCallback 99 DR CTRL MessageCallback start.
+2021-09-07 12:49:51:969 0 createRequestHandler 180 DR CTRL GET /device/enum/start
+2021-09-07 12:49:51:977 0 SyncSuperviseCallBack 736 DR CTRL kMsgStartScan response.
+2021-09-07 12:49:53:877 0 SyncSuperviseCallBack 790 DR CTRL kMsgQueryDiskInfoFinish
+2021-09-07 12:49:53:880 0 createRequestHandler 180 DR CTRL GET /device/enum/result

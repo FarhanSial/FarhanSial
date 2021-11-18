@@ -1,0 +1,49 @@
+[2021-09-07 12:49:44] [INFO] - (37) back thread start ...
+[2021-09-07 12:49:44] [INFO] - (38) sdk version: 2.6.2.2
+[2021-09-07 12:49:44] [INFO] - (117) update conf from svr
+[2021-09-07 12:49:44] [INFO] - (437) get svr cnf
+[2021-09-07 12:49:47] [INFO] - (151) save cnf:1
+[2021-09-07 12:49:47] [INFO] - (132) update conf from svr end
+[2021-09-07 12:49:47] [INFO] - (89) send old msgs
+[2021-09-07 12:49:47] [INFO] - (179) process_msgs: 1
+[2021-09-07 12:49:47] [INFO] - (151) save cnf:1
+[2021-09-07 12:49:47] [INFO] - (115) back thread loop start ...
+[2021-09-07 12:49:47] [INFO] - (151) save cnf:1
+[2021-09-07 12:49:47] [INFO] - (160) chk roll_file size: 2048000
+[2021-09-07 12:49:48] [INFO] - (207) send init
+[2021-09-07 12:49:50] [INFO] - (240) save msg to file
+[2021-09-07 12:49:50] [INFO] - (240) save msg to file
+[2021-09-07 12:49:50] [INFO] - (240) save msg to file
+[2021-09-07 12:49:50] [INFO] - (240) save msg to file
+[2021-09-07 12:49:50] [INFO] - (240) save msg to file
+[2021-09-07 12:49:50] [INFO] - (240) save msg to file
+[2021-09-07 12:49:50] [INFO] - (240) save msg to file
+[2021-09-07 12:49:50] [INFO] - (240) save msg to file
+[2021-09-07 12:49:50] [INFO] - (151) save cnf:1
+[2021-09-07 12:49:50] [INFO] - (240) save msg to file
+[2021-09-07 12:49:50] [INFO] - (240) save msg to file
+[2021-09-07 12:49:50] [INFO] - (240) save msg to file
+[2021-09-07 12:49:50] [INFO] - (151) save cnf:1
+[2021-09-07 12:49:50] [INFO] - (160) chk roll_file size: 2048000
+[2021-09-07 12:49:50] [INFO] - (176) to send, last_err: 0, gap: 1800, send_n: 10, msg_n: 12, send_s: 204800, msg_s: 6431, tm: 1631000990
+[2021-09-07 12:49:50] [INFO] - (179) process_msgs: 0
+[2021-09-07 12:49:50] [INFO] - (227) snd old msgs: /Users/farhan/Library/Application Support/Recoverit/WSData/MSG_PRE_{06a7b454cd544584a8b378a9d87c57c1}1631000990
+[2021-09-07 12:49:52] [INFO] - (151) save cnf:1
+[2021-09-07 12:49:52] [INFO] - (240) save msg to file
+[2021-09-07 12:49:52] [INFO] - (151) save cnf:1
+[2021-09-07 12:49:52] [INFO] - (160) chk roll_file size: 2048000
+[2021-09-07 12:49:56] [INFO] - (240) save msg to file
+[2021-09-07 12:49:56] [INFO] - (240) save msg to file
+[2021-09-07 12:49:56] [INFO] - (240) save msg to file
+[2021-09-07 12:49:56] [INFO] - (240) save msg to file
+[2021-09-07 12:49:56] [INFO] - (240) save msg to file
+[2021-09-07 12:49:56] [INFO] - (240) save msg to file
+[2021-09-07 12:49:56] [INFO] - (151) save cnf:1
+[2021-09-07 12:49:56] [INFO] - (160) chk roll_file size: 2048000
+[2021-09-07 12:53:52] [INFO] - (127) end, to upload
+[2021-09-07 12:53:52] [INFO] - (179) process_msgs: 1
+[2021-09-07 12:53:52] [INFO] - (227) snd old msgs: /Users/farhan/Library/Application Support/Recoverit/WSData/MSG_PRE_{cec3619297e14d24bee507b2929056f1}1631001232
+[2021-09-07 12:53:54] [INFO] - (151) save cnf:1
+[2021-09-07 12:53:54] [INFO] - (130) to exit
+[2021-09-07 12:53:54] [INFO] - (252) back thread stop ...
+[2021-09-07 12:53:54] [INFO] - (151) save cnf:1

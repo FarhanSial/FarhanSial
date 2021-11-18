@@ -1,0 +1,131 @@
+2021-09-07 12:49:50:208 0 InitRedisConnect 119 AntiPriacyHelper PortId : 63007
+2021-09-07 12:49:50:214 0 InitRedisConnect 132 CRedisConnector   connected to redis server PONG
+2021-09-07 12:49:50:214 0 main 180 main  flushdb   start
+2021-09-07 12:49:50:214 0 main 184 main  flushdb   finished
+2021-09-07 12:49:50:214 0 main 199 =========== DrEngine  Main  Start ==================
+2021-09-07 12:49:51:971 0 Message_Read 146 Menchace ReadData Receive message from Dr controller  & Messaget type is :kMsgQueryDiskInfo
+2021-09-07 12:49:51:971 0 EnumDevice 1396 DR LIB [CRecoverManager]::EnumDevice Start enum devices.
+2021-09-07 12:49:51:971 0 OnStart 313 DataManager SendFile on start type is:1
+2021-09-07 12:49:51:976 0 Message_Send 187 Menchace ReadData Send message to Dr controller  & Messaget type is :kMsgStartScan
+2021-09-07 12:49:51:976 0 EnumDevice 159 DR LIB EnumDevice start
+2021-09-07 12:49:51:976 0 DeviceExplore 474 DR LIB [DeviceExplore] Start detect device.
+2021-09-07 12:49:53:491 0 DeviceExplore 487 DR LIB [DeviceExplore] Failed to detect device, nDeviceCount = 0.
+2021-09-07 12:49:53:491 0 GetDeviceInfoVector 668 DR LIB First to detect device, try again.
+2021-09-07 12:49:53:491 0 DeviceExplore 474 DR LIB [DeviceExplore] Start detect device.
+2021-09-07 12:49:53:496 0 DeviceExplore 491 DR LIB [DeviceExplore] Detect device complete, nDeviceCount: 17.
+2021-09-07 12:49:53:500 0 GetDeviceInfoVector 688 DR LIB [DiskImage] 0, MediaBSDName: disk5, Disk Mode: Apple UDIF read-only compressed (zlib) Media, BytesPerSector: 512, DiskSize: 2156470272.
+2021-09-07 12:49:53:500 0 GetDeviceInfoVector 688 DR LIB [DiskImage] 1, MediaBSDName: disk4, Disk Mode: Apple UDIF read-only compressed (bzip2) Media, BytesPerSector: 512, DiskSize: 440926208.
+2021-09-07 12:49:53:500 0 GetDeviceInfoVector 688 DR LIB [DiskImage] 2, MediaBSDName: disk3, Disk Mode: Apple UDIF read-only compressed (zlib) Media, BytesPerSector: 512, DiskSize: 314572800.
+2021-09-07 12:49:53:500 0 GetDeviceInfoVector 683 DR LIB [Physical] 0, MediaBSDName: disk1, Disk Mode: APPLE HDD TOSHIBA MK5065GSXF Media, BytesPerSector: 512, DiskSize: 500107862016.
+2021-09-07 12:49:53:500 0 GetDeviceInfoVector 683 DR LIB [Physical] 1, MediaBSDName: disk0, Disk Mode: SAMSUNG SSD SM841 2.5" 7mm 128GB Media, BytesPerSector: 512, DiskSize: 128035676160.
+2021-09-07 12:49:53:500 0 CreateEx 351 DR LIB Start create /dev/hdf.
+2021-09-07 12:49:53:500 0 Open 131 DR LIB Open /dev/rdisk5 failed! (13).
+2021-09-07 12:49:53:500 0 CreateEx 359 DR LIB Disk /dev/hdf Open faild, will try open with modeRead | modeBinary.
+2021-09-07 12:49:53:502 0 Open 155 DR LIB Open device: /dev/rdisk5, m_fd: 74, sector size: 512
+2021-09-07 12:49:53:502 0 CreateEx 368 DR LIB Read only device: /dev/hdf
+2021-09-07 12:49:53:502 0 CreateEx 392 DR LIB Disk Mode: Apple UDIF read-only compressed (zlib) Media, Media Type: Disk Image, BytesPerSector: 512, DiskSize: 2156470272.
+2021-09-07 12:49:53:502 0 CreateEx 408 DR LIB Create /dev/hdf complete, return code: 0(non-zero is failed).
+2021-09-07 12:49:53:502 0 SetPartitionInfo 731 DR LIB [SetPartitionInfo] Filter system reserved volume: disk5s1, name: EFI
+2021-09-07 12:49:53:507 0 Open 167 DR LIB Open /dev/rdisk5s2 failed! (13).
+2021-09-07 12:49:53:507 0 Open 191 DR LIB Open device: /dev/rdisk5s2, m_fd: 75, sector size: 512
+2021-09-07 12:49:53:507 0 OpenHandle 158 DR LIB Read only device: /dev/hdf2
+2021-09-07 12:49:53:507 0 Close 77 DR LIB [CCommDeviceIo] : Close device m_fd = 74
+2021-09-07 12:49:53:507 0 MacExplore 1333 DR LIB Will transmit disk5 to UI, disk size = 2156470272B, BytesOfSector: 512B.
+
+2021-09-07 12:49:53:507 0 Message_Send 187 Menchace ReadData Send message to Dr controller  & Messaget type is :kMsgDevicesFound
+2021-09-07 12:49:53:507 0 Close 77 DR LIB [CCommDeviceIo] : Close device m_fd = 75
+2021-09-07 12:49:53:507 0 MacExplore 1347 DR LIB Find physicalVolume = disk5s2, virtualVolume = disk5s2,size = 1812496384B BytesOfSector: 512B.
+
+2021-09-07 12:49:53:507 0 OnDevicesFound 532 DataManager SendFile  :  size :1728MB& index is 2
+2021-09-07 12:49:53:508 0 Message_Send 187 Menchace ReadData Send message to Dr controller  & Messaget type is :kMsgDevicesFound
+2021-09-07 12:49:53:509 0 CreateEx 351 DR LIB Start create /dev/hde.
+2021-09-07 12:49:53:509 0 Open 131 DR LIB Open /dev/rdisk4 failed! (13).
+2021-09-07 12:49:53:509 0 CreateEx 359 DR LIB Disk /dev/hde Open faild, will try open with modeRead | modeBinary.
+2021-09-07 12:49:53:509 0 Open 155 DR LIB Open device: /dev/rdisk4, m_fd: 74, sector size: 512
+2021-09-07 12:49:53:509 0 CreateEx 368 DR LIB Read only device: /dev/hde
+2021-09-07 12:49:53:509 0 CreateEx 392 DR LIB Disk Mode: Apple UDIF read-only compressed (bzip2) Media, Media Type: Disk Image, BytesPerSector: 512, DiskSize: 440926208.
+2021-09-07 12:49:53:509 0 CreateEx 408 DR LIB Create /dev/hde complete, return code: 0(non-zero is failed).
+2021-09-07 12:49:53:509 0 Open 167 DR LIB Open /dev/rdisk4s1 failed! (13).
+2021-09-07 12:49:53:509 0 Open 191 DR LIB Open device: /dev/rdisk4s1, m_fd: 75, sector size: 512
+2021-09-07 12:49:53:509 0 OpenHandle 158 DR LIB Read only device: /dev/hde1
+2021-09-07 12:49:53:509 0 Close 77 DR LIB [CCommDeviceIo] : Close device m_fd = 74
+2021-09-07 12:49:53:509 0 MacExplore 1333 DR LIB Will transmit disk4 to UI, disk size = 440926208B, BytesOfSector: 512B.
+
+2021-09-07 12:49:53:509 0 Message_Send 187 Menchace ReadData Send message to Dr controller  & Messaget type is :kMsgDevicesFound
+2021-09-07 12:49:53:509 0 Close 77 DR LIB [CCommDeviceIo] : Close device m_fd = 75
+2021-09-07 12:49:53:509 0 MacExplore 1347 DR LIB Find physicalVolume = disk4s1, virtualVolume = disk4s1,size = 440885248B BytesOfSector: 512B.
+
+2021-09-07 12:49:53:509 0 OnDevicesFound 532 DataManager SendFile  :  size :420MB& index is 4
+2021-09-07 12:49:53:509 0 Message_Send 187 Menchace ReadData Send message to Dr controller  & Messaget type is :kMsgDevicesFound
+2021-09-07 12:49:53:509 0 CreateEx 351 DR LIB Start create /dev/hdd.
+2021-09-07 12:49:53:509 0 Open 131 DR LIB Open /dev/rdisk3 failed! (13).
+2021-09-07 12:49:53:509 0 CreateEx 359 DR LIB Disk /dev/hdd Open faild, will try open with modeRead | modeBinary.
+2021-09-07 12:49:53:509 0 Open 155 DR LIB Open device: /dev/rdisk3, m_fd: 74, sector size: 512
+2021-09-07 12:49:53:509 0 CreateEx 368 DR LIB Read only device: /dev/hdd
+2021-09-07 12:49:53:509 0 CreateEx 392 DR LIB Disk Mode: Apple UDIF read-only compressed (zlib) Media, Media Type: Disk Image, BytesPerSector: 512, DiskSize: 314572800.
+2021-09-07 12:49:53:509 0 CreateEx 408 DR LIB Create /dev/hdd complete, return code: 0(non-zero is failed).
+2021-09-07 12:49:53:510 0 Open 167 DR LIB Open /dev/rdisk3s1 failed! (13).
+2021-09-07 12:49:53:510 0 Open 191 DR LIB Open device: /dev/rdisk3s1, m_fd: 75, sector size: 512
+2021-09-07 12:49:53:510 0 OpenHandle 158 DR LIB Read only device: /dev/hdd1
+2021-09-07 12:49:53:510 0 Close 77 DR LIB [CCommDeviceIo] : Close device m_fd = 74
+2021-09-07 12:49:53:510 0 MacExplore 1333 DR LIB Will transmit disk3 to UI, disk size = 314572800B, BytesOfSector: 512B.
+
+2021-09-07 12:49:53:511 0 Message_Send 187 Menchace ReadData Send message to Dr controller  & Messaget type is :kMsgDevicesFound
+2021-09-07 12:49:53:511 0 Close 77 DR LIB [CCommDeviceIo] : Close device m_fd = 75
+2021-09-07 12:49:53:511 0 MacExplore 1347 DR LIB Find physicalVolume = disk3s1, virtualVolume = disk3s1,size = 314531840B BytesOfSector: 512B.
+
+2021-09-07 12:49:53:511 0 OnDevicesFound 532 DataManager SendFile  :  size :299MB& index is 6
+2021-09-07 12:49:53:511 0 Message_Send 187 Menchace ReadData Send message to Dr controller  & Messaget type is :kMsgDevicesFound
+2021-09-07 12:49:53:511 0 CreateEx 351 DR LIB Start create /dev/hdb.
+2021-09-07 12:49:53:511 0 Open 155 DR LIB Open device: /dev/rdisk1, m_fd: 74, sector size: 512
+2021-09-07 12:49:53:511 0 CreateEx 392 DR LIB Disk Mode: APPLE HDD TOSHIBA MK5065GSXF Media, Media Type: SATA, BytesPerSector: 512, DiskSize: 500107862016.
+2021-09-07 12:49:53:511 0 CreateEx 408 DR LIB Create /dev/hdb complete, return code: 0(non-zero is failed).
+2021-09-07 12:49:53:511 0 SetPartitionInfo 731 DR LIB [SetPartitionInfo] Filter system reserved volume: disk1s1, name: EFI
+2021-09-07 12:49:53:511 0 Open 191 DR LIB Open device: /dev/rdisk1s2, m_fd: 75, sector size: 512
+2021-09-07 12:49:53:511 0 Open 191 DR LIB Open device: /dev/rdisk1s3, m_fd: 76, sector size: 512
+2021-09-07 12:49:53:511 0 SetPartitionInfo 731 DR LIB [SetPartitionInfo] Filter system reserved volume: disk1s4, name: Recovery HD
+2021-09-07 12:49:53:867 0 Close 77 DR LIB [CCommDeviceIo] : Close device m_fd = 74
+2021-09-07 12:49:53:867 0 MacExplore 1333 DR LIB Will transmit disk1 to UI, disk size = 500107862016B, BytesOfSector: 512B.
+
+2021-09-07 12:49:53:867 0 Message_Send 187 Menchace ReadData Send message to Dr controller  & Messaget type is :kMsgDevicesFound
+2021-09-07 12:49:53:867 0 Close 77 DR LIB [CCommDeviceIo] : Close device m_fd = 75
+2021-09-07 12:49:53:867 0 MacExplore 1347 DR LIB Find physicalVolume = disk1s2, virtualVolume = disk1s2,size = 199484211200B BytesOfSector: 512B.
+
+2021-09-07 12:49:53:867 0 OnDevicesFound 532 DataManager SendFile  :  size :190242MB& index is 8
+2021-09-07 12:49:53:867 0 Message_Send 187 Menchace ReadData Send message to Dr controller  & Messaget type is :kMsgDevicesFound
+2021-09-07 12:49:53:867 0 Close 77 DR LIB [CCommDeviceIo] : Close device m_fd = 76
+2021-09-07 12:49:53:867 0 MacExplore 1347 DR LIB Find physicalVolume = disk1s3, virtualVolume = disk1s3,size = 299113885696B BytesOfSector: 512B.
+
+2021-09-07 12:49:53:867 0 OnDevicesFound 532 DataManager SendFile  :  size :285257MB& index is 9
+2021-09-07 12:49:53:867 0 Message_Send 187 Menchace ReadData Send message to Dr controller  & Messaget type is :kMsgDevicesFound
+2021-09-07 12:49:53:867 0 CreateEx 351 DR LIB Start create /dev/hda.
+2021-09-07 12:49:53:867 0 Open 155 DR LIB Open device: /dev/rdisk0, m_fd: 74, sector size: 512
+2021-09-07 12:49:53:867 0 CreateEx 392 DR LIB Disk Mode: SAMSUNG SSD SM841 2.5" 7mm 128GB Media, Media Type: SATA, BytesPerSector: 512, DiskSize: 128035676160.
+2021-09-07 12:49:53:867 0 CreateEx 408 DR LIB Create /dev/hda complete, return code: 0(non-zero is failed).
+2021-09-07 12:49:53:867 0 SetPartitionInfo 731 DR LIB [SetPartitionInfo] Filter system reserved volume: disk0s1, name: EFI
+2021-09-07 12:49:53:867 0 Open 155 DR LIB Open device: /dev/rdisk2, m_fd: 75, sector size: 512
+2021-09-07 12:49:53:868 0 SetPartitionInfo 731 DR LIB [SetPartitionInfo] Filter system reserved volume: disk0s3, name: Recovery HD
+2021-09-07 12:49:53:872 0 Close 77 DR LIB [CCommDeviceIo] : Close device m_fd = 74
+2021-09-07 12:49:53:872 0 MacExplore 1333 DR LIB Will transmit disk0 to UI, disk size = 128035676160B, BytesOfSector: 512B.
+
+2021-09-07 12:49:53:872 0 Message_Send 187 Menchace ReadData Send message to Dr controller  & Messaget type is :kMsgDevicesFound
+2021-09-07 12:49:53:873 0 Close 77 DR LIB [CCommDeviceIo] : Close device m_fd = 75
+2021-09-07 12:49:53:873 0 MacExplore 1347 DR LIB Find physicalVolume = disk0s2, virtualVolume = disk2s-1,size = 126804688896B BytesOfSector: 512B.
+
+2021-09-07 12:49:53:873 0 OnDevicesFound 532 DataManager SendFile  :  size :120930MB& index is 11
+2021-09-07 12:49:53:873 0 Message_Send 187 Menchace ReadData Send message to Dr controller  & Messaget type is :kMsgDevicesFound
+2021-09-07 12:49:53:874 0 MacExplore 1356 DR LIB Portable Device Count: 2
+2021-09-07 12:49:53:874 0 Open 167 DR LIB Open /dev/rdisk-1s255 failed! (2).
+2021-09-07 12:49:53:874 0 Open 167 DR LIB Open /dev/rdisk-1s255 failed! (2).
+2021-09-07 12:49:53:874 0 OpenHandle 154 DR LIB Disk /dev/hd`255 cannot read.
+2021-09-07 12:49:53:874 0 OnDevicesFound 532 DataManager SendFile 05ac8 :  size :0MB& index is 12
+2021-09-07 12:49:53:875 0 Message_Send 187 Menchace ReadData Send message to Dr controller  & Messaget type is :kMsgDevicesFound
+2021-09-07 12:49:53:876 0 Open 167 DR LIB Open /dev/rdisk-1s255 failed! (2).
+2021-09-07 12:49:53:876 0 Open 167 DR LIB Open /dev/rdisk-1s255 failed! (2).
+2021-09-07 12:49:53:876 0 OpenHandle 154 DR LIB Disk /dev/hd`255 cannot read.
+2021-09-07 12:49:53:876 0 OnDevicesFound 532 DataManager SendFile 05ac8 :  size :0MB& index is 13
+2021-09-07 12:49:53:878 0 Message_Send 187 Menchace ReadData Send message to Dr controller  & Messaget type is :kMsgDevicesFound
+2021-09-07 12:49:53:878 0 EnumDevice 169 DR LIB EnumDevice completed
+2021-09-07 12:49:53:878 0 Message_Send 187 Menchace ReadData Send message to Dr controller  & Messaget type is :kMsgQueryDiskInfoFinish
+2021-09-07 12:49:53:878 0 EnumDevice 1424 DR LIB [CRecoverManager]::EnumDevice End enum devices.
+2021-09-07 12:49:53:878 0 main 223 Main WaitMessage waiting message...
