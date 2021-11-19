@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MailAccounts</key>
+	<array>
+		<dict>
+			<key>AccountPath</key>
+			<string>~/Library/Mail/V2/Mailboxes</string>
+			<key>AccountType</key>
+			<string>LocalAccount</string>
+			<key>ArchiveMailboxName</key>
+			<string>Archive</string>
+			<key>DraftsMailboxName</key>
+			<string>Drafts</string>
+			<key>JunkMailboxName</key>
+			<string>Junk</string>
+			<key>NotesMailboxName</key>
+			<string>Notes</string>
+			<key>PortNumber</key>
+			<integer>0</integer>
+			<key>SentMessagesMailboxName</key>
+			<string>Sent Messages</string>
+			<key>TrashMailboxName</key>
+			<string>Deleted Messages</string>
+			<key>uniqueId</key>
+			<string>LocalAccountId</string>
+		</dict>
+		<dict>
+			<key>AccountName</key>
+			<string>Google</string>
+			<key>AccountPath</key>
+			<string>~/Library/Mail/V2/IMAP-farhanafzal886@imap.gmail.com</string>
+			<key>AccountType</key>
+			<string>IMAPAccount</string>
+			<key>ArchiveMailboxName</key>
+			<string>[Gmail]/All Mail</string>
+			<key>CanonicalEmailAddress</key>
+			<string>farhanafzal886@gmail.com</string>
+			<key>ConfigureDynamically</key>
+			<false/>
+			<key>DateOfLastDraftCleanup</key>
+			<date>2021-10-30T16:35:59Z</date>
+			<key>DateOfLastSync</key>
+			<date>2021-11-18T07:17:05Z</date>
+			<key>DaysBetweenSyncs</key>
+			<integer>2</integer>
+			<key>DraftsMailboxName</key>
+			<string>[Gmail]/Drafts</string>
+			<key>EmailAddresses</key>
+			<array>
+				<string>farhanafzal886@gmail.com</string>
+			</array>
+			<key>FullUserName</key>
+			<string>Farhan Afzal</string>
+			<key>GmailCapabilitiesSupport</key>
+			<integer>1</integer>
+			<key>HasServerDefinedAllMailMailbox</key>
+			<string>YES</string>
+			<key>HasServerDefinedArchiveMailbox</key>
+			<string>YES</string>
+			<key>HasServerDefinedDraftsMailbox</key>
+			<string>YES</string>
+			<key>HasServerDefinedJunkMailbox</key>
+			<string>YES</string>
+			<key>HasServerDefinedSentMailbox</key>
+			<string>YES</string>
+			<key>HasServerDefinedTrashMailbox</key>
+			<string>YES</string>
+			<key>Hostname</key>
+			<string>imap.gmail.com</string>
+			<key>JunkMailboxName</key>
+			<string>[Gmail]/Spam</string>
+			<key>NotesMailboxName</key>
+			<string>Notes</string>
+			<key>ParentACAccountIdentifier</key>
+			<string>73D6AE07-001F-4D07-A183-8B1248A7575B</string>
+			<key>PortNumber</key>
+			<integer>993</integer>
+			<key>SMTPIdentifier</key>
+			<string>smtp.gmail.com:farhanafzal886</string>
+			<key>SSLEnabled</key>
+			<string>YES</string>
+			<key>SecurityLayerType</key>
+			<integer>3</integer>
+			<key>SentMessagesMailboxName</key>
+			<string>[Gmail]/Sent Mail</string>
+			<key>ServerID</key>
+			<dict>
+				<key>name</key>
+				<string>GImap</string>
+				<key>vendor</key>
+				<string>Google, Inc.</string>
+			</dict>
+			<key>ShouldUseGmailLabelStores</key>
+			<string>YES</string>
+			<key>StoreDraftsOnServer</key>
+			<string>YES</string>
+			<key>StoreSentMessagesOnServer</key>
+			<string>YES</string>
+			<key>ToDosMailboxName</key>
+			<string>Apple Mail To Do</string>
+			<key>TrashMailboxName</key>
+			<string>[Gmail]/Trash</string>
+			<key>UserAllowsInsecureAuthentication</key>
+			<false/>
+			<key>Username</key>
+			<string>farhanafzal886</string>
+			<key>uniqueId</key>
+			<string>8FD355CB-96CE-478F-8E5C-97FBBCA3A2F7</string>
+		</dict>
+	</array>
+</dict>
+</plist>
